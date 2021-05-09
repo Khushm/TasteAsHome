@@ -9,8 +9,11 @@ And moreover, by choosing an online platform,we can efficiently reduce the cost 
 
 # Objectives of this system -
 1)As the People who are quarantined and are Covid positive are not allowed to get out of their home, so our platform will help them with getting healthy and nutritious food in less time.
+
 2)And we know most of the providers would be Women, sothis will help Women to become Independent financially by providing food.  
+
 3)People who lost their jobs in this pandemic situation will also be able to earn by providing services to others.
+
 4)Making services available in almost all locations in less time and at an affordable price.
 # Languages Used - PHP, HTML, CSS, JavaScript, Mysql, AJAX & Bootstrap
 # How to run this project -
