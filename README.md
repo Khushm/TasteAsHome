@@ -15,7 +15,9 @@ And moreover, by choosing an online platform,we can efficiently reduce the cost 
 3)People who lost their jobs in this pandemic situation will also be able to earn by providing services to others.
 
 4)Making services available in almost all locations in less time and at an affordable price.
-# Languages Used - PHP, HTML, CSS, JavaScript, Mysql, AJAX & Bootstrap
+
+Languages Used - PHP, HTML, CSS, JavaScript, Mysql, AJAX & Bootstrap
+
 # How to run this project -
 # System Requirements - Xampp,Sublime Text Editor  
 1)Install WAMP or XAMPP for MySQL server.(Start the control panel which you are using)
