@@ -59,22 +59,32 @@ Then they can see the products available with end time.And according to one's ne
 # HOMEPAGE
 ![Capture](https://user-images.githubusercontent.com/75447890/117564574-58862200-b0ca-11eb-840a-0cfd3f2d9fbb.JPG)
 
+
 # Join Us
 ![a](https://user-images.githubusercontent.com/75447890/117564626-9c792700-b0ca-11eb-8d23-5514a17ee0ae.JPG)
+
 
 # Owner Login Page 
 ![s](https://user-images.githubusercontent.com/75447890/117564638-b286e780-b0ca-11eb-9b6e-a36063780145.JPG)
 
+
 # Order History
 ![sss](https://user-images.githubusercontent.com/75447890/117564674-d9ddb480-b0ca-11eb-8c04-09644d093d89.JPG)
+
 
 # Menu
 ![we (1)](https://user-images.githubusercontent.com/75447890/117564701-f7ab1980-b0ca-11eb-815b-8a446673aca9.JPG)
 
+
 # Profile 
 ![WhatsApp Image 2021-05-09 at 1 29 36 PM](https://user-images.githubusercontent.com/75447890/117564717-101b3400-b0cb-11eb-9dbc-b5438978ab2c.jpeg)
 
-# 
+# Database
+![WhatsApp Image 2021-05-09 at 1 35 34 PM](https://user-images.githubusercontent.com/75447890/117564818-933c8a00-b0cb-11eb-8906-aad8f635eec8.jpeg)
+
+# Add new Menu
+![WhatsApp Image 2021-05-09 at 1 35 54 PM](https://user-images.githubusercontent.com/75447890/117564836-a6e7f080-b0cb-11eb-8c16-968624716c9f.jpeg)
+
 
 
 
