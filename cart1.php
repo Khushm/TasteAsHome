@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
-    <title>Cart</title>
-    <link rel="stylesheet" href="css/bot.css">
+    <title>TEALOVE Cart</title>
+    <link rel="stylesheet" href="bot.css">
     <style type="text/css">
         table-responsive mt-2 {
             border-collapse: collapse;
@@ -29,7 +29,7 @@
 <body>
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand" href="cart.php">Cart</a>
+  <a class="navbar-brand" href="cart.php">Bake n Take Cart</a>
 
   <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -43,7 +43,16 @@
         <a class="nav-link" href="profile.php">Profile  &nbsp;<i class="fas fa-user"></i></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index1.php">Menu  &nbsp;<i class="fas fa-birthday-cake"></i></a>
+        <a class="nav-link" href="index2.php">Cakes  &nbsp;<i class="fas fa-birthday-cake"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index1.php">Milk Tea &nbsp;<i class='fas fa-glass-cheers'></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="checkout.php">Checkout &nbsp;<i class="fa fa-credit-card"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="cart.php">Cart &nbsp;<i class="fas fa-shopping-cart"></i> <span id="cart-item" class="badge badge-danger"></span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="orderhistory.php">History &nbsp;<i class="fas fa-book"></i></a>
@@ -112,10 +121,11 @@
                         <?php 
                         require 'config.php';
                         $puserid = $_SESSION["id"];
-                        $stmt = $conn->prepare("SELECT * FROM cart WHERE userid=$puserid order by product_id ASC");
+                        $stmt = $conn->prepare("SELECT * FROM cart WHERE userid=$puserid");
                         $stmt->execute();
                         $result = $stmt->get_result();
                         $grand_total = 0;
+                        $qty = 1;
                         while($row = $result->fetch_assoc()):
                         ?>
                         <tr>
@@ -128,7 +138,7 @@
                             </td>
                             <input type="hidden" class="pprice" value="<?= $row['product_price']?>">
                             <td>
-                                <input type="number" name="qty" class="form-control itemQty" min="1" value="<?= $row['qty']?>" style="width:75px;">
+                                <input type="number" class="form-control itemQty" value="<?= $row['qty']?>" style="width:75px;">
                             </td>
                             <td><i class="fas fa-dollar-sign"></i>&nbsp;&nbsp;<?= number_format($row['total_price'],2);?></td>
                             <td>
@@ -136,7 +146,7 @@
                             </td>
                         </tr>
                         <?php $grand_total +=$row['total_price'];?>
-                        
+                        <?php $qty +=$row['qty'];?>
                         <?php endwhile; ?>
                         <tr>
                             <td colspan="3">
@@ -145,7 +155,7 @@
                             <td colspan="2"><b>Basket Total</b></td>
                             <td><b><i class="fas fa-dollar-sign"></i>&nbsp;&nbsp;<?= number_format($grand_total,2);?></b></td>
                             <td>
-                                <a href="checkout.php" class="btn btn-info <?= ($grand_total>1)?"":"disabled";?>"><i class="far fa-credit-card"></i>&nbsp;&nbsp;Checkout</a>
+                                <a href="checkout.php" class="btn btn-info <?= ($qty>3)?"":"disabled";?>"><i class="far fa-credit-card"></i>&nbsp;&nbsp;Checkout</a>
                             </td>
                         </tr>
 
@@ -193,11 +203,6 @@ $(document).ready(function(){
                 var pid = $el.find(".pid").val();
                 var pprice = $el.find(".pprice").val();
                 var qty = $el.find(".itemQty").val();
-                if(qty<1){
-                    alert('No negative quantity allowed!');
-                    location.reload(true);
-                }
-                else {
                 location.reload(true);
                 
                 $.ajax({
@@ -209,7 +214,6 @@ $(document).ready(function(){
                         console.log(response);
                     }
                 });
-                }
             });
        
         load_cart_item_number();

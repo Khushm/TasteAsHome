@@ -31,7 +31,7 @@
     <!-- navigation starts -->
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
-            <a href="index.php" class="navbar-brand">Taste As Home</a>
+            <a href="#about" class="navbar-brand">Taste As Home</a>
             <div class="collpase navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
