@@ -21,19 +21,29 @@ Languages Used - PHP, HTML, CSS, JavaScript, Mysql, AJAX & Bootstrap
 # How to run this project -
 # System Requirements - Xampp,Sublime Text Editor  
 1)Install WAMP or XAMPP for MySQL server.(Start the control panel which you are using)
+
 2)Use can use Sublime Text Editor as Tool(for writing the code)
+
 3)Create Mysql database in phpMyAdmin
+
 4)Run the program using the local host in the default browser.
+
 5)Enter localhost/TasteAsHome/homepage.php.
+
 6)The main homepage of the "Taste As Home" will get open.
 
 # How to Interact with the Website -
 In this website on the main homepage -(localhost/TasteAsHome/homepage.php.) here are different items in navbar which are :
 Our Story - Here the objectives of our Website are given,
+
 Guide-Steps to handle this system (means to how to select product,add it to cart,place order and after you are done logout from system)
+
 Category -This section includes the different menus in our system.Under main headings Breakfast,Lunch,Dinner.
+
 Testimonials-Here is the feedback given by the customers,
+
 Us - This section contains information about our team (Manager,Web developer)
+
 Ask Us - Here the person who has doubt ,query can put all the essential credentials (email,phone no.,msg)and can submit the form so that we can resolve their queries.
 
 # Modules Included in our System -
