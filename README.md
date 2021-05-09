@@ -56,6 +56,10 @@ They can then add the products in the menu with images so that the website will 
 3)Customer -Customers can login(if already have account ) or Sign Up(if don’t have account) from here by giving email,password,gender,address and others details.
 Then they can see the products available with end time.And according to one's need can add required products in cart ,they can also see their order history.After they will click on submit order the bill will be generated.then ,they can head to make the payment.
 
+# Google Doc Link For More Information -
+https://docs.google.com/document/d/1hvtsaCneAIKVgMrHXfL8bsFnCVmAsodAQewRe_W2JBo/edit
+
+
 # HOMEPAGE
 ![Capture](https://user-images.githubusercontent.com/75447890/117564574-58862200-b0ca-11eb-840a-0cfd3f2d9fbb.JPG)
 
