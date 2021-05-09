@@ -35,3 +35,14 @@ Category -This section includes the different menus in our system.Under main hea
 Testimonials-Here is the feedback given by the customers,
 Us - This section contains information about our team (Manager,Web developer)
 Ask Us - Here the person who has doubt ,query can put all the essential credentials (email,phone no.,msg)and can submit the form so that we can resolve their queries.
+
+# Modules Included in our System -
+
+1)Owner -  Here Owner can login in the system using email and password ,and if someone wants to join as owner then the person can Sign Up and send us the request.
+
+2)Staff - Staff members can login(if already have account ) or Sign Up(if don’t have account) from here by giving email,password,gender,address and others details.
+They can then add the products in the menu with images so that the website will be more user friendly and attractive too.They can decide and write prices accordingly.
+
+3)Customer -Customers can login(if already have account ) or Sign Up(if don’t have account) from here by giving email,password,gender,address and others details.
+Then they can see the products available with end time.And according to one's need can add required products in cart ,they can also see their order history.After they will click on submit order the bill will be generated.then ,they can head to make the payment.
+
