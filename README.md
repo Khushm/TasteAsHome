@@ -83,9 +83,6 @@ https://docs.google.com/document/d/1hvtsaCneAIKVgMrHXfL8bsFnCVmAsodAQewRe_W2JBo/
 # Profile 
 ![WhatsApp Image 2021-05-09 at 1 29 36 PM](https://user-images.githubusercontent.com/75447890/117564717-101b3400-b0cb-11eb-9dbc-b5438978ab2c.jpeg)
 
-# Database
-![WhatsApp Image 2021-05-09 at 1 35 34 PM](https://user-images.githubusercontent.com/75447890/117564818-933c8a00-b0cb-11eb-8906-aad8f635eec8.jpeg)
-
 # Add new Menu
 ![WhatsApp Image 2021-05-09 at 1 35 54 PM](https://user-images.githubusercontent.com/75447890/117564836-a6e7f080-b0cb-11eb-8c16-968624716c9f.jpeg)
 
